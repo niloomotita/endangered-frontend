@@ -5,7 +5,7 @@ import pangolin from "./img/pangolin.jpg";
 import africanPenguin from "./img/African-penguins.jpg";
 import lowlandGorilla from "./img/Eastern-lowland-gorilla.jpg";
 import greenSeaTurtle  from "./img/green-sea-turtle.jpg";
-import yellowHeadedAmazon from "./img/yellow-headed-amazon.jpg";
+import yellowHeadedAmazon from "./img/yellow-headed.jpg";
 class App extends Component {
   render() {
     return (
@@ -25,7 +25,7 @@ class App extends Component {
               Like this: http://endangered.io/200/400 <br/><br/>
               example: <pre>{`<img src="http://endangered.io/200/400">`}</pre>
             </p>
-           
+            
           </div>
           <div className="imgs-clmn">
            <div className=" animal">
