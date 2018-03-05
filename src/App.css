@@ -94,8 +94,27 @@
 .space{
   padding: 0  5px;
 }
+.animal-title-wrapper{
+  padding: 0 15px 0 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.learn-btn{
+  text-decoration: none;
+  padding: 10px ;
+  margin: 10px 0;
+  display: inline-block;
+  background-color:#009688;
+  color: white;
+  box-shadow: 0 2px 2px 0 hsla(0,0%,0%,0.2);
+  border:1px solid transparent;
+  border-radius: 2px;
+
+}
 .footer{
-  width:85%;
+  width:88%;
   border-top: 2px solid #4DB6AC;
   padding: 10px;
   margin:20px auto;

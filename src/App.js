@@ -23,15 +23,21 @@ class App extends Component {
             <p className="example">
               Like this: http://endangered.photo/200/400 <br />
               <br />
-              example: <pre>{`<img src="http://endangered.io/200/400">`}</pre>
+              example:{" "}
+              <pre>{`<img src="http://endangered.photo/200/400">`}</pre>
             </p>
           </div>
           <div className="imgs-clmn">
             <div className=" animal">
               <img src={pangolin} alt="" className="pangolin" />
               <span className="description">
-                <p className="animal-title">Pangolin</p>
-                <p> Critically Endangered</p>
+                <div className="animal-title-wrapper">
+                  <p className="animal-title">Pangolin</p>
+                  <a href="https://www.worldwildlife.org/species/pangolin" target="blank" className="learn-btn">
+                    {" "}
+                    Learn to help
+                  </a>
+                </div>
                 <div className="links">
                   <a
                     href=" https://www.flickr.com/photos/string_bass_dave/"
@@ -52,11 +58,14 @@ class App extends Component {
             <div className=" animal">
               <img src={redPanda} alt="" className="redpanda" />
               <span className="description">
-                <p className="animal-title">Red Panda</p>
-                <p>
-                  {" "}
-                  Endangered <br /> Population less than 10,000 individuals
-                </p>
+                <div className="animal-title-wrapper">
+                  <p className="animal-title">Red Panda</p>
+                  <a href="https://www.worldwildlife.org/species/red-panda" target="blank" className="learn-btn">
+                    {" "}
+                    Learn to help
+                  </a>
+                </div>
+
                 <div className="links">
                   <a
                     href=" https://creativecommons.org/licenses/by-sa/3.0/"
@@ -78,10 +87,15 @@ class App extends Component {
             <div className="animal">
               <img src={africanPenguin} alt="" className="african-penguin" />
               <span className="description">
-                <p className="animal-title">African Penguin</p>
-                <p> Endangered</p>
+                <div className="animal-title-wrapper">
+                  <p className="animal-title">African Penguin</p>
+                  <a href="https://en.wikipedia.org/wiki/African_penguin#/" target="blank" className="learn-btn">
+                    {" "}
+                    Learn to help
+                  </a>
+                </div>
                 <div className="links">
-                  <a href=" www.sharpphotography.co.uk" className="link">
+                  <a href=" https://sharpphotography.co.uk" className="link">
                     {" "}
                     Photo by Charles J Sharp
                   </a>
@@ -100,8 +114,14 @@ class App extends Component {
             <div className="animal">
               <img src={lowlandGorilla} alt="" className="lowland-gorilla" />
               <span className="description">
-                <p className="animal-title">Eastern Lowland Gorilla</p>
-                <p> Critically Endangered</p>
+                <div className="animal-title-wrapper">
+                  <p className="animal-title">Eastern Lowland Gorilla</p>
+                  <a href="https://www.worldwildlife.org/species/eastern-lowland-gorilla" target="blank" className="learn-btn">
+                    {" "}
+                    Learn to help
+                  </a>
+                </div>
+
                 <div className="links">
                   <a
                     href="https://www.flickr.com/people/72063229@N00"
@@ -122,8 +142,14 @@ class App extends Component {
             <div className="animal">
               <img src={greenSeaTurtle} alt="" className="green-sea-turtle" />
               <span className="description">
-                <p className="animal-title">Green Turtle</p>
-                <p> Endangered</p>
+                <div className="animal-title-wrapper">
+                  <p className="animal-title">Green Sea Turtle</p>
+                  <a href="https://www.worldwildlife.org/species/sea-turtle" target="blank"className="learn-btn">
+                    {" "}
+                    Learn to help
+                  </a>
+                </div>
+
                 <div className="links">
                   <a
                     href=" https://sites.google.com/site/thebrockeninglory/"
@@ -148,8 +174,14 @@ class App extends Component {
                 className="yellow-headed-amazon"
               />
               <span className="description">
-                <p className="animal-title">Yellow Headed Amazon</p>
-                <p> Endangered</p>
+                <div className="animal-title-wrapper">
+                  <p className="animal-title">Yellow Headed Amazon</p>
+                  <a href="https://en.wikipedia.org/wiki/Yellow-headed_amazon#/" target="blank" className="learn-btn">
+                    {" "}
+                    Learn to help
+                  </a>
+                </div>
+
                 <div className="links">
                   <a
                     href=" https://www.flickr.com/photos/kurt-b/"
@@ -171,13 +203,17 @@ class App extends Component {
         </section>
         <footer className="footer">
           <p className="footer-text">
-            Endangered is a free image placeholder service created by
-            <a href="https://github.com/niloomotita/" target="blank" className="link">
+            Endangered.photo is a free image placeholder service created by
+            <a
+              href="https://github.com/niloomotita/"
+              target="blank"
+              className="link"
+            >
               {" "}
               Niloo
             </a>{" "}
             and{" "}
-            <a href="https://github.com/omidfi" target="blank"className="link" >
+            <a href="https://github.com/omidfi" target="blank" className="link">
               Omid.
             </a>{" "}
             Please respect photo licenses when using it.
