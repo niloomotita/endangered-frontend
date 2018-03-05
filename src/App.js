@@ -169,6 +169,20 @@ class App extends Component {
             </div>
           </div>
         </section>
+        <footer className="footer">
+          <p className="footer-text">
+            Endangered is a free image placeholder service created by
+            <a href="https://github.com/niloomotita/" target="blank" className="link">
+              {" "}
+              Niloo
+            </a>{" "}
+            and{" "}
+            <a href="https://github.com/omidfi" target="blank"className="link" >
+              Omid.
+            </a>{" "}
+            Please respect photo licenses when using it.
+          </p>
+        </footer>
       </div>
     );
   }
