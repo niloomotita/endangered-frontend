@@ -12,11 +12,11 @@ class App extends Component {
       <div className="App">
         <section className="App-body">
           <div className="text">
-            <h2 className="title">Endangered Placeholders</h2>
+            <h2 className="title">Endangered Species Placeholders</h2>
             <p className="text-body">
               This is a quick and easy to use service to place pictures of
               endangered species as placeholder in your design or code.<br />{" "}
-              The goal of this service is to bring consciousness towards these
+              The goal of this service is to bring awareness towards these
               animals. You only need to add your desired height and width after
               our URL.
             </p>
@@ -203,7 +203,8 @@ class App extends Component {
         </section>
         <footer className="footer">
           <p className="footer-text">
-            Endangered.photo is a free image placeholder service created by
+            Endangered.photo is a free and open source <a href="https://github.com/niloomotita/endangered-frontend" className="link"> (github) </a>
+            image placeholder service created by
             <a
               href="https://github.com/niloomotita/"
               target="blank"
