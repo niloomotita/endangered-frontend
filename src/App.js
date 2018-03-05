@@ -33,20 +33,53 @@ class App extends Component {
              <span className="description">
                <p className="animal-title">Pangolin</p>
                <p> Critically Endangered</p>
+              <div className="links">
+                <a 
+                  href=" https://www.flickr.com/photos/string_bass_dave/" 
+                  className="link">Photo by David Brossard
+                </a> 
+                <span className="space">/</span>
+                <a 
+                  href="https://creativecommons.org/licenses/by/2.0/" 
+                  className="link">CC BY 2.0
+                  </a> 
+              </div>
              </span>
            </div>
            <div className=" animal">
-           <img src={redPanda} alt="" className="redpanda"/>
+            <img src={redPanda} alt="" className="redpanda"/>
              <span className="description">
-             <p className="animal-title">Red Panda</p>
-               <p> Endangered <br/> Population less than 10,000 individuals</p>
+                <p className="animal-title">Red Panda</p>
+                <p> Endangered <br/> Population less than 10,000 individuals</p>
+                <div className="links">
+                <a 
+                  href=" https://creativecommons.org/licenses/by-sa/3.0/" 
+                  className="link"> Photo by Greg Hume
+                </a> 
+                <span className="space">/</span>
+                <a 
+                  href="https://creativecommons.org/licenses/by-sa/3.0/" 
+                  className="link">CC BY-SA 3.0
+                  </a> 
+              </div>
              </span>
            </div>
             <div className="animal">
             <img src={africanPenguin} alt="" className="african-penguin"/>
              <span className="description">
-             <p className="animal-title">African Penguin</p>
+                <p className="animal-title">African Penguin</p>
                <p> Endangered</p>
+               <div className="links">
+                <a 
+                  href=" www.sharpphotography.co.uk" 
+                  className="link"> Photo by Charles J Sharp
+                </a> 
+                <span className="space">/</span>
+                <a 
+                  href=" https://creativecommons.org/licenses/by-sa/3.0/" 
+                  className="link">CC BY-SA 3.0
+                  </a> 
+              </div>
              </span>
             </div>
           
@@ -57,6 +90,17 @@ class App extends Component {
               <span className="description">
               <p className="animal-title">Eastern Lowland Gorilla</p>
                <p> Critically Endangered</p>
+               <div className="links">
+                <a 
+                  href="https://www.flickr.com/people/72063229@N00" 
+                  className="link">Photo by Joe McKenna
+                </a> 
+                <span className="space">/</span>
+                <a 
+                  href="https://creativecommons.org/licenses/by/2.0/" 
+                  className="link">CC BY 2.0
+                  </a> 
+              </div>
               </span>
             </div>
             <div className="animal">
@@ -64,6 +108,17 @@ class App extends Component {
               <span className="description">
               <p className="animal-title">Green Turtle</p>
                <p> Endangered</p>
+               <div className="links">
+                <a 
+                  href=" https://sites.google.com/site/thebrockeninglory/" 
+                  className="link">Photo by Brocken Inaglory
+                </a> 
+                <span className="space">/</span>
+                <a 
+                  href=" http://www.gnu.org/copyleft/fdl.html" 
+                  className="link">GFDL
+                  </a> 
+              </div>
               </span>
             </div>
             <div className="animal">
@@ -71,6 +126,17 @@ class App extends Component {
               <span className="description">
               <p className="animal-title">Yellow Headed Amazon</p>
                <p>  Endangered</p>
+               <div className="links">
+                <a 
+                  href=" https://www.flickr.com/photos/kurt-b/" 
+                  className="link">Photo by Kurt Bauschardt
+                </a> 
+                <span className="space">/</span>
+                <a 
+                  href="https://creativecommons.org/licenses/by/2.0/" 
+                  className="link">CC BY 2.0
+                  </a> 
+              </div>
               </span>
             </div>
             
