@@ -7,15 +7,9 @@
   height: 100vh
 }
 
-.App-header {
-  display: flex;
-  background-color:#12887A;
-  height: 80px;
-  padding: 20px;
-  color: white;
-}
+
 .App-body{
-  width: 80%;
+  width: 85%;
   border-top:5px solid #4DB6AC;
   margin: 50px auto;
   display: flex;
@@ -28,27 +22,47 @@
   display: flex;
   flex-direction: column;
   margin-right: 10px;
-  padding: 20px;
+  padding: 10px;
+}
+.text-body{
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.7803921568627451);
+    text-align: left;
+    font-size: 16px;
+    margin: 0;
+}
+.title{
+  color:rgba(33, 33, 33, 0.8)
 }
 .imgs-clmn{
   width: 33%;
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  
+  padding: 10px;
 }
 .description{
-  
+ display: block;
+ padding-left: 10px;
+}
+.animal-title{
+  font-weight: 600;
+  color: rgba(33, 33, 33, 0.8);
 }
 .example{
-  background-color: #00695C;
+  margin-top: 20px;
+  background-color: #009688;
+  border:1px solid transparent;
+  border-radius: 3px;
   color:white;
-  padding: 20px;
+  padding: 10px;
+  width: 100%;
+  word-wrap: break-word; 
 }
 .animal{
   width:100%;
- 
-  margin: 0;
+  box-shadow: 0 2px 4px 0 hsla(0,0%,0%,0.2);
+  margin-bottom: 30px;
 }
 .pangolin{
   width:100%;
@@ -69,20 +83,14 @@
   width: 100%;
 }
 
-@media (max-width:700px){
+@media (max-width:700px) {
   .App-body{
     width: 95%;
   }
   .text{
     width:100%;
-    height: 50%;
-
   }
-  .imgs{
-    width:100%;
-    height:50%;
-    text-align: center;
-  }
+  
   .animal{
     
     width: 100%;
@@ -91,6 +99,20 @@
     width: 100%;
     margin-left: 0;
     margin-top: 10px;
+  }
+}
+@media (min-width:701px) and (max-width:1024px){
+  .text{
+    width:100%;
+  }
+
+.imgs-clmn{
+  width: 50%;
+  margin-left: 0;
+  margin-top: 10px;
+}
+  .animal{
+    width: 100%;
   }
 }
 
