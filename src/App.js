@@ -13,7 +13,7 @@ class App extends Component {
        
         <section className="App-body">
           <div className="text">
-            <h2 className="title">Endangered species</h2>
+            <h2 className="title">Endangered Placeholders</h2>
             <p className="text-body">
               This is a quick and easy to use service to place pictures of
               endangered species as placeholder in your design or code.<br />{" "}
@@ -21,39 +21,57 @@ class App extends Component {
               animals. You only need to add your desired height and width after
               our URL.
             </p>
-            <div className="example">
-              Like this: http://endangered.io/200/400
-            </div>
+            <p className="example">
+              Like this: http://endangered.io/200/400 <br/><br/>
+              example: <pre>{`<img src="http://endangered.io/200/400">`}</pre>
+            </p>
+           
           </div>
           <div className="imgs-clmn">
            <div className=" animal">
              <img src={pangolin} alt="" className="pangolin"/>
              <span className="description">
-               
+               <p className="animal-title">Pangolin</p>
+               <p> Critically Endangered</p>
              </span>
            </div>
            <div className=" animal">
            <img src={redPanda} alt="" className="redpanda"/>
-             <span></span>
+             <span className="description">
+             <p className="animal-title">Red Panda</p>
+               <p> Endangered <br/> Population less than 10,000 individuals</p>
+             </span>
            </div>
             <div className="animal">
             <img src={africanPenguin} alt="" className="african-penguin"/>
-             <span></span>
+             <span className="description">
+             <p className="animal-title">African Penguin</p>
+               <p> Endangered</p>
+             </span>
             </div>
           
           </div>
           <div className="imgs-clmn">
             <div className="animal">
               <img src={lowlandGorilla} alt="" className="lowland-gorilla"/>
-              <span></span>
+              <span className="description">
+              <p className="animal-title">Eastern Lowland Gorilla</p>
+               <p> Critically Endangered</p>
+              </span>
             </div>
             <div className="animal">
               <img src={greenSeaTurtle} alt="" className="green-sea-turtle"/>
-              <span></span>
+              <span className="description">
+              <p className="animal-title">Green Turtle</p>
+               <p> Endangered</p>
+              </span>
             </div>
             <div className="animal">
               <img src={yellowHeadedAmazon} alt="" className="yellow-headed-amazon"/>
-              <span></span>
+              <span className="description">
+              <p className="animal-title">Yellow Headed Amazon</p>
+               <p>  Endangered</p>
+              </span>
             </div>
             
            
