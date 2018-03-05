@@ -9,7 +9,7 @@
 
 
 .App-body{
-  width: 85%;
+  width: 88%;
   border-top:5px solid #4DB6AC;
   margin: 50px auto;
   display: flex;
@@ -48,6 +48,7 @@
 .animal-title{
   font-weight: 600;
   color: rgba(33, 33, 33, 0.8);
+  margin-bottom: 5px;
 }
 .example{
   margin-top: 20px;
@@ -84,7 +85,7 @@
 }
 .links{
   display: flex;
-  padding: 0 5px 10px 0;
+  padding: 0 5px 20px 0;
 }
 .link{
   text-decoration: none;
