@@ -21,7 +21,7 @@ class App extends Component {
               our URL.
             </p>
             <p className="example">
-              Like this: http://endangered.photo/200/400 <br />
+              Like this: http://endangered.photo/300/200 <br />
               <br />
               example:{" "}
               <pre>{`<img src="http://endangered.photo/200/400">`}</pre>
