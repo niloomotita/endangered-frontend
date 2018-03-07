@@ -21,10 +21,10 @@ class App extends Component {
               our URL.
             </p>
             <p className="example">
-              Like this: http://endangered.photo/400/300 <br />
+              Like this : <a href="http://endangered.photo/400/300" className="example-link"> http://endangered.photo/400/300 </a> <br />
               <br />
-              example:{" "}
-              <pre>{`<img src="http://endangered.photo/200/400">`}</pre>
+              example :{" "}
+              <pre>{`<img src="http://endangered.photo/400/300">`}</pre>
             </p>
           </div>
           <div className="imgs-clmn">

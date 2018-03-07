@@ -91,6 +91,12 @@
   text-decoration: none;
   color: #009688;
 }
+.example-link{
+  color: white;
+}
+.example-link:visited{
+  color:white;
+}
 .space{
   padding: 0  5px;
 }
